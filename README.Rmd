@@ -28,6 +28,15 @@ plants <- read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesda
 
 ```
 
+### Filtrando datos para chile
+
+```{r}
+Plantas_chile <- plants %>% filter(country == "Chile") %>% 
+  select(binomial_name, country, red_list_category)
+
+Plantas_chile
+
+```
 
 
 
