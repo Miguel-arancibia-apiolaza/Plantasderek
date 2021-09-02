@@ -38,5 +38,14 @@ Plantas_chile
 
 ```
 
+## Ahora resumimos especies de america del sur
+
+```{r}
+Sur_america <- plants %>% filter(continent == "South America") %>% 
+  group_by(country) %>% 
+  summarise(n_especies= n())
+
+Sur_america
+```
 
 

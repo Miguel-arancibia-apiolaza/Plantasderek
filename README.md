@@ -84,3 +84,26 @@ Plantas_chile
     ##   <chr>                   <chr>   <chr>              
     ## 1 Santalum fernandezianum Chile   Extinct            
     ## 2 Sophora toromiro        Chile   Extinct in the Wild
+
+## Ahora resumimos especies de america del sur
+
+``` r
+Sur_america <- plants %>% filter(continent == "South America") %>% 
+  group_by(country) %>% 
+  summarise(n_especies= n())
+
+Sur_america
+```
+
+    ## # A tibble: 9 x 2
+    ##   country             n_especies
+    ##   <chr>                    <int>
+    ## 1 Argentina                    1
+    ## 2 Bolivia                      1
+    ## 3 Brazil                      10
+    ## 4 Chile                        2
+    ## 5 Colombia                     6
+    ## 6 Ecuador                     52
+    ## 7 Peru                         4
+    ## 8 Trinidad and Tobago          6
+    ## 9 Venezuela                    1
