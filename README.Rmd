@@ -1,0 +1,18 @@
+---
+title: "Clase Plantas extintas"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduccion
+
+En este documento revisaremos una base de datos de plantas extintas en silvestria.
+
+## subtitulo 
+
+### especifico
+
+#### Verificando tamaño
