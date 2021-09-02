@@ -8,6 +8,7 @@ silvestria.
 
 ## subtitulo
 
-### especifico
-
-#### Verificando tamaño
+Primero voy a agregar un link, para eso uso \[\] en la palabra y luego
+() para el link. Este es un [Cheat sheet
+Rmd](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+de Rmarkdown
